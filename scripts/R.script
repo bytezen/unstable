@@ -1,0 +1,27 @@
+# History from R analysis session
+install.package(geosphere)
+
+stations <- read.csv('strong-motion-sites-operational.csv', header = T, sep = ',', stringsAsFactors = F)
+
+pts <- cbind(stations$lat, stations$lon)
+
+
+# This Haversine distance from:
+# From: http://andrew.hedges.name/experiments/haversine/
+# !!! Don't forget to convert from degrees to radians
+
+
+dist_haversine <- function(loc1,loc2) {
+ dlon = loc2[2] - loc1[2]
+ dlat = loc2[1] - loc1[1]
+ a = (sin(dlat/2.0))^2 + cos(loc1[1]) * cos(loc2[1]) * (sin(dlon/2.0))^2
+ c = 2 * asin( sqrt(a) )
+ d = 6373 * c
+ return(d)
+ }
+
+a = pts[1:5,] # for testing
+distmat <- apply(a, 1, FUN=function(X) distHaversine(X,a,r=6335.439))
+
+write.table(distmat, row.names = FALSE, col.names = FALSE, sep=",",
+ file = paste(".", "distMat.csv", sep="/"))

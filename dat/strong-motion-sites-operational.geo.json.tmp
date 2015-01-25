@@ -1,0 +1,269 @@
+{"code":"AVAB","name":"GNS Avalon","lat":"-41.196445957","lon":"174.932866469"}
+{"code":"CPIB","name":"Christchurch Polytechnic Institute of Technology","lat":"-43.537115","lon":"172.643386"}
+{"code":"CPLB","name":"Wellington CentrePort BNZ Building","lat":"-41.278834329064516","lon":"174.78209929999997"}
+{"code":"CPXB","name":"Canterbury University Physics Department","lat":"-43.52199","lon":"172.58232"}
+{"code":"HBRB","name":"Hawke's Bay Regional Council","lat":"-39.493442","lon":"176.916878"}
+{"code":"MJCB","name":"Wellington Majestic Centre","lat":"-41.288582","lon":"174.774443"}
+{"code":"NMIB","name":"Nelson and Marlborough Institute of Technology","lat":"-41.27612966906453","lon":"173.28789568"}
+{"code":"STSB","name":"Wellington Stout Street Building Array (MBIE)","lat":"-41.281275","lon":"174.776845"}
+{"code":"TDFB","name":"Wellington Thorndon Flyover","lat":"-41.263666","lon":"174.787222"}
+{"code":"THOB","name":"Te Horo House","lat":"-40.78940244006671","lon":"175.092971338"}
+{"code":"TRAB","name":"Christchurch Tunnel Road Rail Overpass Building Array","lat":"-43.566694","lon":"172.693308"}
+{"code":"TROB","name":"Christchurch Tunnel Road Overpass Building Array","lat":"-43.570899","lon":"172.69331"}
+{"code":"VUWB","name":"Wellington Victoria University Te Puni Student Acc","lat":"-41.29233489906446","lon":"174.76725869999999"}
+{"code":"WHSB","name":"Wellington Regional Hospital","lat":"-41.308300999064386","lon":"174.779271"}
+{"code":"WQAB","name":"West Quay Apartment Building","lat":"-39.486792","lon":"176.893193"}
+{"code":"AMBC","name":"Amberley HDC","lat":"-43.154677722","lon":"172.730879511"}
+{"code":"CCCC","name":"Christchurch Cathedral College","lat":"-43.538085","lon":"172.647427"}
+{"code":"CSTC","name":"Cust School","lat":"-43.312290815","lon":"172.381334202"}
+{"code":"CULC","name":"Culverden Airlie Farm","lat":"-42.759437995","lon":"172.802602336"}
+{"code":"DORC","name":"Dorie","lat":"-43.896765183","lon":"172.093827514"}
+{"code":"DSLC","name":"Dunsandel School","lat":"-43.667499474","lon":"172.19792004"}
+{"code":"GDLC","name":"Greendale","lat":"-43.586183","lon":"172.088753"}
+{"code":"HORC","name":"Hororata School","lat":"-43.539635528","lon":"171.959907583"}
+{"code":"HPSC","name":"Hulverstone Drive Pumping Station","lat":"-43.50157547","lon":"172.702194214"}
+{"code":"HVSC","name":"Heathcote Valley Primary School","lat":"-43.579787","lon":"172.709423"}
+{"code":"KOWC","name":"Kowai","lat":"-43.32145999905829","lon":"171.85484999999997"}
+{"code":"KPOC","name":"Kaiapoi North School","lat":"-43.376463195","lon":"172.66376756"}
+{"code":"LINC","name":"Lincoln Crop and Food Research","lat":"-43.623179038","lon":"172.46800379"}
+{"code":"LPCC","name":"Lyttelton Port Company","lat":"-43.60785","lon":"172.724778"}
+{"code":"LRSC","name":"Lauriston","lat":"-43.729389999","lon":"171.793634446"}
+{"code":"LSRC","name":"Lake Sumner Road","lat":"-42.869520062","lon":"172.543288463"}
+{"code":"MAYC","name":"Mayfield School","lat":"-43.82306143","lon":"171.421709104"}
+{"code":"MSMC","name":"Mount Somers School","lat":"-43.704588286","lon":"171.402269471"}
+{"code":"NBLC","name":"New Brighton Library","lat":"-43.506858826","lon":"172.73135376"}
+{"code":"PEEC","name":"Peel Forest","lat":"-43.92386","lon":"171.233957"}
+{"code":"PRPC","name":"Pages Road Pumping Station","lat":"-43.525813082","lon":"172.682771076"}
+{"code":"RHSC","name":"Riccarton High School","lat":"-43.536172","lon":"172.564404"}
+{"code":"RKAC","name":"Rakaia School","lat":"-43.751461192","lon":"172.02314733"}
+{"code":"ROLC","name":"Rolleston School","lat":"-43.592818023","lon":"172.381092806"}
+{"code":"SBRC","name":"Southbridge School","lat":"-43.808703298","lon":"172.252380039"}
+{"code":"SCAC","name":"Scargill","lat":"-42.93857277","lon":"172.92162302"}
+{"code":"SHFC","name":"Sheffield School","lat":"-43.391151887","lon":"172.02575919"}
+{"code":"SHLC","name":"Shirley Library","lat":"-43.505336761","lon":"172.663391113"}
+{"code":"SLRC","name":"Selwyn Lake Road","lat":"-43.67513","lon":"172.31752"}
+{"code":"SMTC","name":"Styx Mill Transfer Station","lat":"-43.467529297","lon":"172.613861084"}
+{"code":"SWNC","name":"Swannanoa School","lat":"-43.369432575","lon":"172.495355403"}
+{"code":"TPLC","name":"Templeton School","lat":"-43.549997156","lon":"172.471954205"}
+{"code":"WAKC","name":"Waikari","lat":"-42.963102826","lon":"172.705240104"}
+{"code":"WIGC","name":"Waiau Gorge","lat":"-42.701186545","lon":"172.800302583"}
+{"code":"WSFC","name":"Westerfield","lat":"-43.837332321","lon":"171.611011502"}
+{"code":"WTMC","name":"Te Mara Farm Waiau","lat":"-42.619455176","lon":"173.053596231"}
+{"code":"ADCS","name":"Ashburton District Council","lat":"-43.9024444","lon":"171.74756295"}
+{"code":"AKSS","name":"Akaroa School","lat":"-43.81091","lon":"172.96349"}
+{"code":"AKUS","name":"Auckland University School of Engineering","lat":"-36.853158207","lon":"174.770451257"}
+{"code":"APPS","name":"Arthurs Pass Police Station","lat":"-42.948949444","lon":"171.567735496"}
+{"code":"ARKS","name":"Wainuiomata Arakura School","lat":"-41.242077028","lon":"174.944096424"}
+{"code":"ARPS","name":"Arnold River Power Station","lat":"-42.523958469","lon":"171.407865584"}
+{"code":"ASHS","name":"Ashley School","lat":"-43.274410412","lon":"172.595947177"}
+{"code":"BDCS","name":"Balclutha District Council","lat":"-46.249063655","lon":"169.719372684"}
+{"code":"BMTS","name":"Belmont","lat":"-41.191372","lon":"174.92603"}
+{"code":"BOWS","name":"Bowen St Turnbull House Wellington","lat":"-41.279193","lon":"174.776323"}
+{"code":"BTWS","name":"Nelson Brightwater","lat":"-41.389235986","lon":"173.128512822"}
+{"code":"BWHS","name":"Burwood Hospital","lat":"-43.480415","lon":"172.6821837"}
+{"code":"BWRS","name":"Waikakaho Road","lat":"-41.43954404","lon":"173.90511789"}
+{"code":"CACS","name":"Christchurch Canterbury Aero Club","lat":"-43.483175585","lon":"172.530015293"}
+{"code":"CBGS","name":"Christchurch Botanic Gardens","lat":"-43.52934701","lon":"172.619876237"}
+{"code":"CECS","name":"Cheviot Emergency Centre","lat":"-42.813490547","lon":"173.274868178"}
+{"code":"CMHS","name":"Christchurch Cashmere High School","lat":"-43.565617957","lon":"172.624176115"}
+{"code":"CPFS","name":"Castlepoint Fire Station","lat":"-40.898762125","lon":"176.220963947"}
+{"code":"CSHS","name":"Castle Hill Station","lat":"-43.226526873","lon":"171.723556103"}
+{"code":"CUBS","name":"Cuba Street","lat":"-41.295463","lon":"174.774381"}
+{"code":"DALS","name":"Dallington","lat":"-43.51198","lon":"172.67323"}
+{"code":"DAVS","name":"Collett Street","lat":"-41.205786679","lon":"174.954359817"}
+{"code":"DCDS","name":"Dunedin Civil Defence","lat":"-45.874335105","lon":"170.502155509"}
+{"code":"DFHS","name":"Darfield High School","lat":"-43.489674622","lon":"172.102159687"}
+{"code":"DGNS","name":"Dunedin GNS","lat":"-45.862564801","lon":"170.513905737"}
+{"code":"DHSS","name":"Diamond Harbour School","lat":"-43.63026","lon":"172.72725"}
+{"code":"DKHS","name":"Dunedin Kings High School","lat":"-45.902225879","lon":"170.492935221"}
+{"code":"DUNS","name":"Dunedin Corstorphine Substation","lat":"-45.9051559","lon":"170.470644903"}
+{"code":"DVHS","name":"Dannevirke High School","lat":"-40.201696492","lon":"176.10136508"}
+{"code":"EBPS","name":"Eastbourne Police Station","lat":"-41.289428012","lon":"174.900235673"}
+{"code":"EDAS","name":"Edgecumbe Down Hole Array","lat":"-37.97767","lon":"176.83222"}
+{"code":"EKTS","name":"Eketahuna School","lat":"-40.64949542","lon":"175.708828445"}
+{"code":"FAHS","name":"Feilding Agricultural High School","lat":"-40.213535565","lon":"175.57304843"}
+{"code":"FAIS","name":"Fairfield","lat":"-41.2074","lon":"174.9401"}
+{"code":"FDCS","name":"Fairlie District Council Garage","lat":"-44.098657034","lon":"170.828699884"}
+{"code":"FGPS","name":"Fox Glacier Park Board Headquarters","lat":"-43.463208136","lon":"170.019802842"}
+{"code":"FJDS","name":"Franz Josef DOC","lat":"-43.389136713","lon":"170.184235366"}
+{"code":"FKPS","name":"Wellington Frank Kitts Park","lat":"-41.287947693","lon":"174.778764139"}
+{"code":"FTPS","name":"Featherston Primary School","lat":"-41.118705097","lon":"175.32744178"}
+{"code":"FXBS","name":"Foxton Beach School","lat":"-40.46136017","lon":"175.22603312"}
+{"code":"GHHS","name":"Gisborne Hospital Hill","lat":"-38.64178","lon":"178.01772"}
+{"code":"GISS","name":"Gisborne 2ZG","lat":"-38.666488866","lon":"178.022674268"}
+{"code":"GKBS","name":"Kaiti Beach","lat":"-38.68217","lon":"178.03188"}
+{"code":"GLWS","name":"Glyn Wye","lat":"-42.59417315","lon":"172.511049373"}
+{"code":"GORS","name":"Gore District Council","lat":"-46.102667058","lon":"168.941693118"}
+{"code":"GOVS","name":"Living Springs Camp Governors Bay","lat":"-43.632421","lon":"172.635725"}
+{"code":"GWTS","name":"Gisborne Waipaoa Water Treatment Plant","lat":"-38.625677862","lon":"177.921583161"}
+{"code":"HAFS","name":"Harihari Fire Station","lat":"-43.148911663","lon":"170.556061443"}
+{"code":"HALS","name":"Halswell School","lat":"-43.59088047","lon":"172.56950297"}
+{"code":"HAVS","name":"Havelock","lat":"-41.27227","lon":"173.78467"}
+{"code":"HBHS","name":"Hamilton Boys High School","lat":"-37.785638","lon":"175.295136"}
+{"code":"HCDS","name":"Hastings Civil Defence Headquarters","lat":"-39.645846286","lon":"176.842906358"}
+{"code":"HDWS","name":"Haast DOC Workshop","lat":"-43.883006138","lon":"169.044147881"}
+{"code":"HHSS","name":"Hillmorton High School","lat":"-43.5575","lon":"172.5928"}
+{"code":"HIBS","name":"Hutt International Boys School","lat":"-41.1399","lon":"175.0359"}
+{"code":"HMCS","name":"Hokitika Medical Centre","lat":"-42.716921997","lon":"170.963958929"}
+{"code":"HNPS","name":"Havelock North Primary School","lat":"-39.671016892","lon":"176.880106731"}
+{"code":"HOCS","name":"Levin Horowhenua College","lat":"-40.621643825","lon":"175.279423156"}
+{"code":"HSES","name":"Hanmer Springs Emergency Centre","lat":"-42.523242237","lon":"172.830493814"}
+{"code":"HSSS","name":"Lower Hutt Haywards Substation","lat":"-41.151935054","lon":"174.981477266"}
+{"code":"HUKS","name":"Huiakama School","lat":"-39.260903206","lon":"174.568089692"}
+{"code":"HUNS","name":"Huntsbury","lat":"-43.57937","lon":"172.65723"}
+{"code":"HWHS","name":"Hawera High School","lat":"-39.585139189","lon":"174.274244785"}
+{"code":"ICCS","name":"Invercargill City Council","lat":"-46.411594219","lon":"168.34692313"}
+{"code":"IFPS","name":"Inchbonnie Fitzsimmons","lat":"-42.726743647","lon":"171.472835397"}
+{"code":"INGS","name":"Inangahua Fire Station","lat":"-41.857123867","lon":"171.952545779"}
+{"code":"INHS","name":"Inglewood High School","lat":"-39.15622017","lon":"174.190525475"}
+{"code":"INSS","name":"Lower Hutt GNS Nuclear Sciences","lat":"-41.233516778","lon":"174.921116168"}
+{"code":"KAFS","name":"Kawerau Fire Station","lat":"-38.083514895","lon":"176.709290186"}
+{"code":"KAPS","name":"Kauri Point","lat":"-36.822297515","lon":"174.703660576"}
+{"code":"KARS","name":"Karamea School","lat":"-41.249420139","lon":"172.116450716"}
+{"code":"KEKS","name":"Kekerengu Valley Road","lat":"-41.95569","lon":"173.98141"}
+{"code":"KFHS","name":"Kaweka Forest Headquarters","lat":"-39.433371066","lon":"176.466962458"}
+{"code":"KHLS","name":"Kaihoka Lakes","lat":"-40.55704","lon":"172.61189"}
+{"code":"KIKS","name":"Kaikoura","lat":"-42.425812008","lon":"173.682125211"}
+{"code":"KILS","name":"Kilmore St Christchurch","lat":"-43.52687","lon":"172.64058"}
+{"code":"KIRS","name":"Kaitoke Kiwi Ranch","lat":"-41.076883922","lon":"175.230010715"}
+{"code":"KLDS","name":"Kikiwa Line Depot","lat":"-41.673091947","lon":"172.874958329"}
+{"code":"KOKS","name":"Kokatahi","lat":"-42.891686823","lon":"171.135640232"}
+{"code":"LHBS","name":"Lower Hutt Normandale","lat":"-41.196645866","lon":"174.892315954"}
+{"code":"LHES","name":"Lower Hutt Emergency Management Office","lat":"-41.211686236","lon":"174.903336032"}
+{"code":"LHRS","name":"Lower Hutt Normandale Rock Site","lat":"-41.204736054","lon":"174.893185932"}
+{"code":"LHUS","name":"Lower Hutt Unilever","lat":"-41.230846652","lon":"174.89363583"}
+{"code":"LIRS","name":"Lower Hutt IRL","lat":"-41.23231","lon":"174.91929"}
+{"code":"LNBS","name":"Naenae Bowling Club","lat":"-41.20498","lon":"174.9266"}
+{"code":"LPLS","name":"Lake Paringa Heritage Lodge","lat":"-43.71465288","lon":"169.42309374"}
+{"code":"LRSS","name":"Randwick School","lat":"-41.2294301","lon":"174.90424587"}
+{"code":"MAGS","name":"Mount Albert Grammar School","lat":"-36.885338662","lon":"174.726040611"}
+{"code":"MAVS","name":"Martinborough Wines Vineyard","lat":"-41.210857507","lon":"175.461483109"}
+{"code":"MCAS","name":"Murchison Area School","lat":"-41.799933511","lon":"172.328030808"}
+{"code":"MCNS","name":"Mount Cook Annex","lat":"-43.73645","lon":"170.0972"}
+{"code":"MECS","name":"Makarora Emergency Centre","lat":"-44.230445889","lon":"169.232938317"}
+{"code":"MENS","name":"Menlo Terrace Mount Pleasant Christchurch","lat":"-43.55849","lon":"172.71149"}
+{"code":"MGCS","name":"Blenheim Marlborough Girls College","lat":"-41.507680768","lon":"173.944392627"}
+{"code":"MISS","name":"Wellington Miramar School","lat":"-41.314888406","lon":"174.818434531"}
+{"code":"MKBS","name":"Makara Bunker","lat":"-41.2259","lon":"174.6981"}
+{"code":"MKVS","name":"Makara Village","lat":"-41.26542095","lon":"174.70552447"}
+{"code":"MMCS","name":"Matamata College","lat":"-37.81587781","lon":"175.769789749"}
+{"code":"MNGS","name":"Mangaweka School","lat":"-39.80778","lon":"175.79083"}
+{"code":"MNZS","name":"Menzies Bay Banks Peninsula","lat":"-43.637364","lon":"172.973808"}
+{"code":"MOLS","name":"Molesworth Station","lat":"-42.088022768","lon":"173.2574013"}
+{"code":"MORS","name":"Moorhouse Ave Christchurch","lat":"-43.5395","lon":"172.6214"}
+{"code":"MOSS","name":"Mossburn School","lat":"-45.667802403","lon":"168.237836479"}
+{"code":"MOTS","name":"Motueka DOC workshop","lat":"-41.124689614","lon":"173.009502506"}
+{"code":"MPSS","name":"Mairehau Primary School","lat":"-43.499375","lon":"172.642253"}
+{"code":"MRSS","name":"Merrin School Christchurch","lat":"-43.5113069","lon":"172.5592161"}
+{"code":"MTHS","name":"Methven North","lat":"-43.563194","lon":"171.666362"}
+{"code":"MTPS","name":"Mount Pleasant","lat":"-43.584671","lon":"172.725601"}
+{"code":"MWFS","name":"Matata Watchorn Farm","lat":"-37.859140595","lon":"176.668880466"}
+{"code":"NAAS","name":"Napier Airport","lat":"-39.468735","lon":"176.872021"}
+{"code":"NBSS","name":"St Bernadette's School","lat":"-41.202272","lon":"174.953755"}
+{"code":"NCBS","name":"Nelson Council Building","lat":"-41.270873652","lon":"173.283675308"}
+{"code":"NCDS","name":"Napier Civil Defence","lat":"-39.498401289","lon":"176.876082294"}
+{"code":"NCHS","name":"Napier Colenso High School","lat":"-39.506633503","lon":"176.896757521"}
+{"code":"NELS","name":"Nelson Hospital","lat":"-41.287804018","lon":"173.274245114"}
+{"code":"NEWS","name":"Newlands","lat":"-41.23204","lon":"174.82178"}
+{"code":"NGHS","name":"Napier Girls High School","lat":"-39.485873112","lon":"176.91492782"}
+{"code":"NLMS","name":"Nelson Nelmac","lat":"-41.266523535","lon":"173.276835241"}
+{"code":"NNBS","name":"Christchurch North New Brighton School","lat":"-43.495426391","lon":"172.717997684"}
+{"code":"NPCS","name":"New Plymouth Civil Defence","lat":"-39.062427989","lon":"174.073384416"}
+{"code":"NSBS","name":"Neils Beach","lat":"-43.996197946","lon":"168.660945266"}
+{"code":"NSPS","name":"Napier St Pauls","lat":"-39.489593191","lon":"176.915877818"}
+{"code":"NWFS","name":"Ngawi Fire Station","lat":"-41.589065731","lon":"175.233958687"}
+{"code":"OAMS","name":"Oamaru North Otago Museum","lat":"-45.099744576","lon":"170.969136215"}
+{"code":"OHSS","name":"Ouruhia School","lat":"-43.4446","lon":"172.6605"}
+{"code":"OPCS","name":"Opotiki College","lat":"-38.014134814","lon":"177.289217464"}
+{"code":"OPSS","name":"Opunake Primary School","lat":"-39.45002","lon":"173.85502"}
+{"code":"OPWS","name":"Opawa School","lat":"-43.55619","lon":"172.66429"}
+{"code":"ORCS","name":"Ohakune Ruapehu College","lat":"-39.417438387","lon":"175.412599486"}
+{"code":"OTKS","name":"Otaki School","lat":"-40.754876473","lon":"175.14384092"}
+{"code":"PAPS","name":"Paraparaumu Primary School","lat":"-40.914319724","lon":"175.004958529"}
+{"code":"PARS","name":"Panorama Road","lat":"-43.567898","lon":"172.750717"}
+{"code":"PFAS","name":"Porirua Free Ambulance Depot","lat":"-41.13849443","lon":"174.846095608"}
+{"code":"PGFS","name":"Porangahau Fire Station","lat":"-40.302199783","lon":"176.611751099"}
+{"code":"PGMS","name":"Petone Municipal Building","lat":"-41.224506474","lon":"174.879435677"}
+{"code":"PHHS","name":"Point Howard","lat":"-41.25209","lon":"174.904297"}
+{"code":"PIPS","name":"Aotea Quay Pipitea","lat":"-41.267486611","lon":"174.786068248"}
+{"code":"PNBS","name":"Palmerston North Boys High School","lat":"-40.348948583","lon":"175.607578339"}
+{"code":"PNMS","name":"Monrad Intermediate School","lat":"-40.36286","lon":"175.59311"}
+{"code":"PNRS","name":"Palmerston North Roslyn School","lat":"-40.33027","lon":"175.6337"}
+{"code":"POKS","name":"Katoa Kindergarten","lat":"-41.12495","lon":"174.83151"}
+{"code":"POLS","name":"Porirua Library","lat":"-41.131394252","lon":"174.839095549"}
+{"code":"POTS","name":"Wellington Pottery Association","lat":"-41.272217322","lon":"174.774644152"}
+{"code":"PPHS","name":"Christchurch Papanui High School","lat":"-43.492846035","lon":"172.606916248"}
+{"code":"PTHS","name":"Papatoetoe High School","lat":"-36.975640581","lon":"174.871872017"}
+{"code":"PTOS","name":"Petone Overbridge","lat":"-41.222973","lon":"174.860302"}
+{"code":"PVCS","name":"Petone Victoria Street","lat":"-41.22474608","lon":"174.87391737"}
+{"code":"PWES","name":"Porirua West","lat":"-41.12746","lon":"174.82586"}
+{"code":"QCCS","name":"Picton Queen Charlotte College","lat":"-41.279625689","lon":"174.023144608"}
+{"code":"QTPS","name":"Queenstown Police Station","lat":"-45.032155912","lon":"168.662886073"}
+{"code":"RDCS","name":"Reefton DOC Centre","lat":"-42.119699895","lon":"171.864383395"}
+{"code":"REHS","name":"Christchurch Resthaven","lat":"-43.521946859","lon":"172.635146473"}
+{"code":"ROTS","name":"Rotorua District Council","lat":"-38.135724","lon":"176.255191"}
+{"code":"RPCS","name":"Reporoa College","lat":"-38.438040889","lon":"176.343754501"}
+{"code":"RRKS","name":"Rarakau","lat":"-46.147433733","lon":"167.472523158"}
+{"code":"SACS","name":"St Andrews College Christchurch","lat":"-43.50674","lon":"172.61619"}
+{"code":"SEAS","name":"Seatoun School Wellington","lat":"-41.326447","lon":"174.837638"}
+{"code":"SEDS","name":"Seddon Fire Station","lat":"-41.67229","lon":"174.07645"}
+{"code":"SJFS","name":"Springs Junction Fire Station","lat":"-42.334575929","lon":"172.180286383"}
+{"code":"SKFS","name":"Dunedin St Kilda Fire Station","lat":"-45.898625824","lon":"170.509715468"}
+{"code":"SMHS","name":"Summerhill","lat":"-43.26216","lon":"172.3363"}
+{"code":"SOCS","name":"Lower Hutt St Orans College","lat":"-41.204326097","lon":"174.915936222"}
+{"code":"SOMS","name":"Somes Island","lat":"-41.25746","lon":"174.865"}
+{"code":"SPRS","name":"Springfield Volunteer Fire Station","lat":"-43.3368","lon":"171.93008"}
+{"code":"STAS","name":"St Albans Christchurch","lat":"-43.51361","lon":"172.64112"}
+{"code":"STKS","name":"Sign of the Kiwi","lat":"-43.606541","lon":"172.644913"}
+{"code":"SUMS","name":"Sumner","lat":"-43.56921","lon":"172.75681"}
+{"code":"TACS","name":"Te Aroha College","lat":"-37.541972594","lon":"175.692809799"}
+{"code":"TAFS","name":"Te Anau Fire Station","lat":"-45.416673666","lon":"167.719111225"}
+{"code":"TAIS","name":"Taita Central School","lat":"-41.18038403","lon":"174.954771915"}
+{"code":"TBAS","name":"Tolaga Bay Area School","lat":"-38.372803703","lon":"178.300778623"}
+{"code":"TBCS","name":"Tauranga Boys College","lat":"-37.702696578","lon":"176.156674818"}
+{"code":"TDHS","name":"Te Araroa District High School","lat":"-37.633319923","lon":"178.365371742"}
+{"code":"TEPS","name":"Wellington Te Papa Museum","lat":"-41.290587759","lon":"174.781064157"}
+{"code":"TFSS","name":"Wellington Thorndon Fire Station","lat":"-41.275427415","lon":"174.783054245"}
+{"code":"THHS","name":"Taihape Hospital","lat":"-39.67995471","lon":"175.795593232"}
+{"code":"TIRS","name":"Atiamuri Tirohanga School","lat":"-38.468910528","lon":"175.909709098"}
+{"code":"TKHS","name":"Te Kuiti High School","lat":"-38.332806183","lon":"175.155550424"}
+{"code":"TMBS","name":"Taieri Mouth Beach School","lat":"-46.07183991","lon":"170.1957102"}
+{"code":"TMDS","name":"Te Marua Water Treatment Plant","lat":"-41.078083777","lon":"175.155439767"}
+{"code":"TMHS","name":"Thames High School","lat":"-37.13968503","lon":"175.546519476"}
+{"code":"TOKS","name":"Te Oka Bay Road SW Banks Peninsula","lat":"-43.82243","lon":"172.78084"}
+{"code":"TOTS","name":"Totara Park Upper Hutt","lat":"-41.10492","lon":"175.08539"}
+{"code":"TPPS","name":"Taupo Police Station","lat":"-38.686325129","lon":"176.067470239"}
+{"code":"TRMS","name":"Tiraumea","lat":"-40.671276","lon":"175.990997"}
+{"code":"TRTS","name":"Torrens Terrace Wellington","lat":"-41.2987","lon":"174.7739"}
+{"code":"TSFS","name":"Takaka Scott's Farm","lat":"-40.84942291","lon":"172.821101372"}
+{"code":"TTHS","name":"Turangi Tongariro High School","lat":"-38.986290529","lon":"175.815036053"}
+{"code":"TUHS","name":"Taumarunui High School","lat":"-38.864116798","lon":"175.248309562"}
+{"code":"TWAS","name":"Twizel Area School","lat":"-44.254589089","lon":"170.098339469"}
+{"code":"UHCS","name":"Upper Hutt College","lat":"-41.12681462","lon":"175.040938121"}
+{"code":"UHSS","name":"Upper Hutt Primary School","lat":"-41.12638","lon":"175.06509"}
+{"code":"UTKS","name":"Utiku Landslide Borehole 2","lat":"-39.74637494","lon":"175.837768869"}
+{"code":"VUWS","name":"Victoria University Law School","lat":"-41.279854","lon":"174.778399"}
+{"code":"WAIS","name":"Wairakei Research Centre","lat":"-38.63246","lon":"176.0937"}
+{"code":"WAKS","name":"Wakarara Rangimaire Farm","lat":"-39.772727671","lon":"176.25167855"}
+{"code":"WANS","name":"Wainuiomata Hill","lat":"-41.23121","lon":"174.93102"}
+{"code":"WBCS","name":"Westport Buller District Council","lat":"-41.755660519","lon":"171.599811806"}
+{"code":"WBFS","name":"Weber Fire Station","lat":"-40.400881282","lon":"176.311146962"}
+{"code":"WBHS","name":"Whangarei Boys High School","lat":"-35.714958191","lon":"174.31694004"}
+{"code":"WCDS","name":"Wanganui Civil Defence Store","lat":"-39.933638357","lon":"175.047992977"}
+{"code":"WCSS","name":"Whitecliffs","lat":"-43.45775","lon":"171.86346"}
+{"code":"WDAS","name":"Wainuiomata Bush Fire Force","lat":"-41.257397389","lon":"174.948466416"}
+{"code":"WDFS","name":"Ward Fire Station","lat":"-41.827398743","lon":"174.138423708"}
+{"code":"WDPS","name":"Woodville Police Station","lat":"-40.338218939","lon":"175.869801664"}
+{"code":"WEMS","name":"Wellington Emergency Management Office","lat":"-41.27428738","lon":"174.779264202"}
+{"code":"WFSS","name":"Wairoa Fire Station","lat":"-39.034244962","lon":"177.42490569"}
+{"code":"WHAS","name":"Gaunt Creek","lat":"-43.315994","lon":"170.32675"}
+{"code":"WHFS","name":"Whataroa Fire Station","lat":"-43.261164","lon":"170.359029"}
+{"code":"WKHS","name":"Whakatane High School","lat":"-37.961453185","lon":"176.985473954"}
+{"code":"WNAS","name":"Wellington International Airport","lat":"-41.326408649","lon":"174.809034364"}
+{"code":"WNHS","name":"Wellington High School","lat":"-41.30077798","lon":"174.775514045"}
+{"code":"WNKS","name":"Wellington Karori Normal School","lat":"-41.284817534","lon":"174.742053687"}
+{"code":"WNPS","name":"Wanaka National Park Headquarters","lat":"-44.694588118","lon":"169.142964415"}
+{"code":"WPWS","name":"Waipawa District Council","lat":"-39.943862017","lon":"176.584322066"}
+{"code":"WRCS","name":"Masterton Wairarapa College","lat":"-40.950352011","lon":"175.647816501"}
+{"code":"WVAS","name":"Kakapotahi","lat":"-43.071550222","lon":"170.737154179"}
+{"code":"WVFS","name":"Wairau Valley Farm","lat":"-41.62023192","lon":"173.350904603"}

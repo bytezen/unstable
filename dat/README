@@ -1,0 +1,5 @@
+URL with example queries for location adn equipment:
+http://info.geonet.org.nz/display/equip/Network+Location+Queries
+
+Sample URL query for Strong Motion Seismic Stations that are operational:
+http://magma.geonet.org.nz/ws-delta/site?type=seismicStation&status=Operational&networkName=all-strong-motion

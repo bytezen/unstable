@@ -1,0 +1,539 @@
+    1  exit
+    2  nano header2one
+    3  exit
+    4  history | grep awk
+    5  history
+    6  clear
+    7  /usr/bin/env/awk
+    8  env awk
+    9  which env
+   10  awk -F, -f header2one header_play.csv 
+   11  awk -f header2one header_play.csv 
+   12  clear
+   13  awk -f header2one header_play.csv 
+   14  man awk
+   15  awk -f header2one header_play.csv 
+   16  man awk
+   17  awk -f header2one header_play.csv 
+   18  awk --version
+   19  awk -v
+   20  awk
+   21  awk -h
+   22  awk --hel[
+   23  awk --help
+   24  awk -f header2one header_play.csv 
+   25  clear
+   26  exit
+   27  clear
+   28  ls /vagrant
+   29  cd /vagrant/dat
+   30  ls
+   31  cat README
+   32  < cat README
+   33  cat > README
+   34  ls
+   35  curl -s "http://magma.geonet.org.nz/ws-delta/site?type=seismicStation&status=Operational&networkName=all-strong-motion"
+   36  curl -s "http://magma.geonet.org.nz/ws-delta/site?type=seismicStation&status=Operational&networkName=all-strong-motion" > strong-motion-sites-operational.xml
+   37  ls
+   38  head -n4 strong-motion-sites-operational.xml 
+   39  header Vol2_peaks_1966-2014.csv 
+   40  header Vol2_peaks_1966-2014.csv head
+   41  man header
+   42  header --help
+   43  header -n2 | head -n 10
+   44  header -n2 Vol2_peaks_1966-2014.csv 
+   45  header -n2 Vol2_peaks_1966-2014.csv | head
+   46  head Vol2_peaks_1966-2014.csv 
+   47  header -n10 | less Vol2_peaks_1966-2014.csv 
+   48  seq 20 | header -a 'test' > cat test.dat
+   49  less test.dat
+   50  seq 20 | header -a 'test' |cat >>  test.dat
+   51  ls
+   52  less test.dat 
+   53  header test.dat
+   54  header -h
+   55  header test.dat -e "cat"
+   56  < test.dat header -a "something"
+   57  < test.dat header 
+   58  < Vol2_peaks_1966-2014.csv header
+   59  < Vol2_peaks_1966-2014.csv header -n2
+   60  head -n2 Vol2_peaks_1966-2014.csv 
+   61  head -n1 Vol2_peaks_1966-2014.csv 
+   62  vim Vol2_peaks_1966-2014.csv 
+   63  nano Vol2_peaks_1966-2014.csv 
+   64  head -n2 Vol2_peaks_1966-2014.csv > header_play.csv
+   65  ls
+   66  less header_play.csv 
+   67  clear
+   68  man awk
+   69  awl 'print $1' test.dat 
+   70  awk 'print $1' test.dat 
+   71  awl '{print $1}' test.dat 
+   72  awk '{print $1}' test.dat 
+   73  awk '{print $1}' header_play.csv 
+   74  awk -F, '{print $1}' header_play.csv 
+   75  awk -F, '{print $0}' header_play.csv 
+   76  clear
+   77  tmux
+   78  sudo apt-get install tmux
+   79  which tmux
+   80  tmux
+   81  exit
+   82  nano Vol2_peaks_1966-2014.csv 
+   83  nano header2one 
+   84  nano clean_header
+   85  nano header2one 
+   86  exit
+   87  nano header2one 
+   88  tmux
+   89  awk -f header2one header_play.csv 
+   90  less header_play.csv flow
+   91  less -S  header_play.csv
+   92  ls
+   93  head -n 10 Vol2_peaks_1966-2014.csv flow
+   94  head -n 10 Vol2_peaks_1966-2014.csv | flow
+   95  head -n 10 Vol2_peaks_1966-2014.csv | fold
+   96  head -n10 Vol2_peaks_1966-2014.csv | fold
+   97  head -n10 Vol2_peaks_1966-2014.csv | fold | less
+   98  < Vol2_peaks_1966-2014.csv body | head -n2 | fold
+   99  < Vol2_peaks_1966-2014.csv body | less
+  100  body --help
+  101  body -h
+  102  body
+  103  which body
+  104  which head
+  105  head -hlep
+  106  head -help
+  107  head -h
+  108  head --help
+  109  which header
+  110  header --help
+  111  body --help
+  112  body header_play.csv 
+  113  < header_play.csv body
+  114  < header_play.csv body -n2
+  115  which body
+  116  less $(which body)
+  117  which read
+  118  man read
+  119  less $(which body)
+  120  help read
+  121  help read | less
+  122  less $(which body)
+  123  body body Vol2_peaks_1966-2014.csv 
+  124  body body cat Vol2_peaks_1966-2014.csv 
+  125  less $(which body)
+  126  head -n 10 | body cat -
+  127  head -n 10 | body less
+  128  head -n 10 | body sort 
+  129  head -n 10 Vol2_peaks_1966-2014.csv | body sort 
+  130  head -n 10 Vol2_peaks_1966-2014.csv | body less
+  131  head -n 3 Vol2_peaks_1966-2014.csv | body body less
+  132  head -n 3 Vol2_peaks_1966-2014.csv | body body cat >>tmp.out
+  133  less tmp.out 
+  134  head -n 3 Vol2_peaks_1966-2014.csv | body body less
+  135  head -n 3 Vol2_peaks_1966-2014.csv | body body cat
+  136  head -n 3 Vol2_peaks_1966-2014.csv | body body cat -
+  137  head -n 3 Vol2_peaks_1966-2014.csv | body body > tmp.out
+  138  less tmp.out 
+  139  head -n 3 Vol2_peaks_1966-2014.csv 
+  140  clear
+  141  head -n 3 Vol2_peaks_1966-2014.csv | body
+  142  head -n 3 Vol2_peaks_1966-2014.csv | body body
+  143  less $(which body)
+  144  man tee
+  145  head -n 3 Vol2_peaks_1966-2014.csv | body body tee > tmp.out 
+  146  less tmp.out 
+  147  seq 10
+  148  seq 10 | header -a count
+  149  seq 10 | header -a count | body sort -nR
+  150  seq 10 | header -a count | body sort -nr
+  151  seq 10 | header -a count | body | sort -nr
+  152  seq 10 | header -a count | body sort -nr
+  153  clear
+  154  seq 10 | header -a count | header -r | body sort -nr
+  155  seq 10 | header -a count | header -d | body sort -nr
+  156  seq 10 | header -a count | body sort -nr
+  157  seq 10 | header -a count | header -d | body sort -nr
+  158  seq 10 | header -a count | header -d | body sort -Nr
+  159  seq 10 | header -a count | header -d | body sort -r
+  160  seq 10 | header -a count | header -d | body sort
+  161  seq 10 | header -a count | header -d | body sort -n
+  162  man srot
+  163  man sort
+  164  seq 10 | sort
+  165  seq 10 | sort -n
+  166  seq 10 | sort -nr
+  167  seq 10 | header -a count | header -d | body sort -nr
+  168  seq 10 | header -a count| body sort -nr
+  169  seq 10 | body sort -nr
+  170  seq 10 | body sort -nr | header -d
+  171  seq 10 | header -a "" | body sort -nr | header -d
+  172  man sed
+  173  sed '3p' Vol2_peaks_1966-2014.csv 
+  174  sed -n '3p' Vol2_peaks_1966-2014.csv 
+  175  sed -n '1-2p' Vol2_peaks_1966-2014.csv 
+  176  sed -n '1,2p' Vol2_peaks_1966-2014.csv 
+  177  clear
+  178  sed -n '1p' Vol2_peaks_1966-2014.csv | tr '.' '_'
+  179  sed -n '1p' Vol2_peaks_1966-2014.csv | tr '[. ]' '_'
+  180  sed -n '1p' Vol2_peaks_1966-2014.csv | tr '(. ){1,} ' '_'
+  181  sed -n '1p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z]
+  182  sed -n '1p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_'
+  183  sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_'
+  184  sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_' > Vol2_peaks_1966-2014.csv.clean01
+  185  less Vol2_peaks_1966-2014.csv.clean01 
+  186  sed  '1p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_'
+  187  sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_' > Vol2_peaks_1966-2014.csv.clean01
+  188  < Vol2_peaks_1966-2014.csv header -n2 | cat >> Vol2_peaks_1966-2014.csv.clean01 
+  189  less Vol2_peaks_1966-2014.csv.clean01 
+  190  sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_' > Vol2_peaks_1966-2014.csv.clean01
+  191  less Vol2_peaks_1966-2014.csv.clean01 
+  192  header --help
+  193  seq 10 | header -a Vol2_peaks_1966-2014.csv.clean01 
+  194  seq 10 | header -a $(less Vol2_peaks_1966-2014.csv.clean01)
+  195  clear
+  196  seq 10 | header -a $(cat Vol2_peaks_1966-2014.csv.clean01)
+  197  less Vol2_peaks_1966-2014.csv.clean01 
+  198  cat Vol2_peaks_1966-2014.csv.clean01 
+  199  header --helper
+  200  seq 10 | header -n 2 -a $(less Vol2_peaks_1966-2014.csv.clean01)
+  201  seq 10 | header -n2 -a $(cat Vol2_peaks_1966-2014.csv.clean01)
+  202  < Vol2_peaks_1966-2014.csv header -n 2 -e "sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_'"
+  203  < Vol2_peaks_1966-2014.csv header -n 2 -e "sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_' > test.out"
+  204  clear
+  205  ls
+  206  less test.out 
+  207  rm test.out 
+  208  less tmp.out 
+  209  rm tmp.out
+  210  less test.dat 
+  211  rm test.dat 
+  212  ls
+  213  clear
+  214  ls
+  215  rm cat
+  216  clear
+  217  ls
+  218  man tee
+  219  header --help
+  220  head -n 40 Vol2_peaks_1966-2014.csv > Vol2.small.csv
+  221  ls
+  222  less Vol2.small.csv 
+  223  < Vol2.small.csv header -e "sed -n '1,2p' Vol2_peaks_1966-2014.csv | tr '[A-Z]' [a-z] | tr ' ' '_'" > Vol2.small.csv.clean01
+  224  less Vol2.small.csv.clean01 
+  225  ls
+  226  less header2one 
+  227  awk -f header2one Vol2.small.csv.clean01 
+  228  awk -f header2one Vol2.small.csv.clean01 | less -S
+  229  < Vol2.small.csv.clean01 header -n 2 > Vol2.small.csv.clean02
+  230  less Vol2.small.csv.clean02 
+  231  awk -f header2one Vol2.small.csv.clean02 > Vol2.small.csv.clean03
+  232  less Vol2.small.csv.clean03 
+  233  awk -f header2one Vol2.small.csv.clean02 > Vol2.small.csv.clean03
+  234  less Vol2.small.csv.clean03 
+  235  awk -f header2one Vol2.small.csv.clean02 > Vol2.small.csv.clean03
+  236  less Vol2.small.csv.clean03 
+  237  awk -f header2one Vol2.small.csv.clean02 > Vol2.small.csv.clean03
+  238  less Vol2.small.csv.clean03 
+  239  csvlook Vol2.small.csv.clean03 
+  240  awk -f header2one Vol2.small.csv.clean02 > Vol2.small.csv.clean03
+  241  csvlook Vol2.small.csv.clean03 
+  242  ls
+  243  head -n1 Vol2_peaks_1966-2014.csv.clean01 
+  244  <Vol2_peaks_1966-2014.csv header -n 2 | awk -f header2one > Vol2_peaks_1966-2014.csv.clean02
+  245  less Vol2_peaks_1966-2014.csv.clean02 
+  246  <Vol2_peaks_1966-2014.csv header -n 2
+  247  <Vol2_peaks_1966-2014.csv header -n 2 | cat
+  248  <Vol2_peaks_1966-2014.csv header -n 2 | cat -
+  249  less Vol2_peaks_1966-2014.csv
+  250  less Vol2_peaks_1966-2014.csv.clean01 
+  251  header -hj
+  252  seq 10 | header -a 'VALUES' | header -e 'tr "[:upper:]" "[:lower:]"'
+  253  seq 10 | header -a "TEST" | header -a 'VALUES' | header -e 'tr "[:upper:]" "[:lower:]"'
+  254  seq 10 | header -a "TEST" | header -a 'VALUES' | header -n 2 -e 'tr "[:upper:]" "[:lower:]"'
+  255  seq 10 | header -a "TEST" | header -a 'VALUES' | header -n 2 -e 'tr "[:upper:]" "[:lower:]"' | head -n 2
+  256  awk -f header2one Vol2_peaks_1966-2014.csv.clean01 
+  257  awk -f header2one Vol2_peaks_1966-2014.csv.clean01 > Vol2_peaks_1966-2014.csv.header.clean02
+  258  less Vol2_peaks_1966-2014.csv.header.clean02 
+  259  <Vol2_peaks_1966-2014.csv | body body head -n3
+  260  < Vol2_peaks_1966-2014.csv | body body head -n3
+  261  < Vol2_peaks_1966-2014.csv | body body
+  262  < Vol2_peaks_1966-2014.csv body body cat -
+  263  < Vol2_peaks_1966-2014.csv body body head -n3
+  264  ls
+  265  less *header*
+  266  less *header.clean02
+  267  man tail
+  268  seq 10 | tail -n +8
+  269  seq 10 | tail -n -8
+  270  seq 10 | tail -n 8
+  271  seq 10 | tail -n -2
+  272  seq 10 | tail -n +2
+  273  seq 10 | tail -n +3
+  274  ls
+  275  man tail
+  276  tail -n +3 Vol2_peaks_1966-2014.csv >> Vol2_peaks_1966-2014.csv.header.clean02 
+  277  less *header.clean.02
+  278  less Vol2*header*
+  279  less -S  Vol2*header* 
+  280  clear
+  281  exit
+  282  cd /vagrant/dat/
+  283  ls
+  284  tmux
+  285  exit
+  286  ls
+  287  cd /vagrant/
+  288  ls
+  289  cd dat/
+  290  ls
+  291  less README 
+  292  less clean_header 
+  293  clear
+  294  head -n 2 | tr ' ' '_' Vol2_peaks_1966-2014.csv
+  295  head -n 2 Vol2_peaks_1966-2014.csv | tr ' ' '_' 
+  296  mkdir bak; cp Vol2_peaks_1966-2014.csv bak/
+  297  ls
+  298  < Vol2_peaks_1966-2014.csv header -n 2 -r -e "tr ' ' '_' "
+  299  clear
+  300  ls
+  301  less Vol2_peaks_1966-2014.csv
+  302  < Vol2_peaks_1966-2014.csv header -n 2 -r -e "tr ' ' '_' " | head -n 2 
+  303  head -n 2 Vol2_peaks_1966-2014.csv
+  304  < Vol2_peaks_1966-2014.csv header -n 2 | less
+  305  header -h
+  306  < Vol2_peaks_1966-2014.csv header
+  307  less $(which header)
+  308  man sed
+  309  < Vol2_peaks_1966-2014.csv sed '1,3p'
+  310  < Vol2_peaks_1966-2014.csv sed '1,3pq'
+  311  < Vol2_peaks_1966-2014.csv sed -n '1,3pq'
+  312  < Vol2_peaks_1966-2014.csv sed -n '1,3p'
+  313  < Vol2_peaks_1966-2014.csv sed -n '1,2{pq}'
+  314  < Vol2_peaks_1966-2014.csv sed -n '1,2{p,q}'
+  315  < Vol2_peaks_1966-2014.csv sed -n '1,2p'
+  316  < Vol2_peaks_1966-2014.csv sed -n '1,2{p;q}'
+  317  < Vol2_peaks_1966-2014.csv sed -n '1,3{p;q}'
+  318  < Vol2_peaks_1966-2014.csv sed -n '1p;2{p,q}'
+  319  < Vol2_peaks_1966-2014.csv sed -n '1{p}; 2{p,q}'
+  320  < Vol2_peaks_1966-2014.csv sed -n '1{p};'
+  321  < Vol2_peaks_1966-2014.csv sed -n '1,2{p};'
+  322  < Vol2_peaks_1966-2014.csv sed -n '3q;1,2p;'
+  323  < Vol2_peaks_1966-2014.csv sed -n '3q;1,2p;' | tr ' ' '_' | tr [:upper:] [:lower:]
+  324  < Vol2_peaks_1966-2014.csv sed -n '3q;1,2p;' | tr ' ' '_' | tr [:upper:] [:lower:] > Vol2_peaks_1966-2014.csv.header.clean
+  325  tail -n +3 | head -n 1
+  326  tail -n +3 | less
+  327  < Vol2_peaks_1966-2014.csv tail -n +3 | less
+  328  < Vol2_peaks_1966-2014.csv tail -n +3 | head -n 2
+  329  < Vol2_peaks_1966-2014.csv tail -n +3 >> Vol2_peaks_1966-2014.csv.header.clean
+  330  $(wc -l Vol2_peaks_1966-2014.csv) - $(wc -l Vol2_peaks_1966-2014.csv.header.clean)
+  331  echo 2 + 2
+  332  bc 2 + 2
+  333  bc '2 + 2'
+  334  man bc
+  335  echo $(( $(wc -l Vol2_peaks_1966-2014.csv) - $(wc -l Vol2_peaks_1966-2014.csv.header.clean)))
+  336  wc -l Vol2_peaks_1966-2014.csv
+  337  wc -l Vol2_peaks_1966-2014.csv.header.clean
+  338  clear
+  339  ls
+  340  mv Vol2_peaks_1966-2014.csv.header.clean Vol2_peaks_1966-2014.csv
+  341  ls Vol2_peaks_1966-2014.csv.*
+  342  rm $(ls Vol2_peaks_1966-2014.csv.*)
+  343  ls 
+  344  ls Vol2.*
+  345  rm $(ls Vol2.*)
+  346  ls
+  347  "
+exit
+  348  tmux
+  349  history
+  350  nano header_cleaning.v01.sh
+  351  ls
+  352  mkdir scripts
+  353  mv header_cleaning.v01.sh scripts/
+  354  ls
+  355  rm header_play.csv 
+  356  ls
+  357  less header2one 
+  358  head -n 2 Vol2_peaks_1966-2014.csv | awk -f header2one 
+  359  sed -e 's/,/\n/g;q' Vol2_peaks_1966-2014.csv 
+  360  head -n 1 Vol2_peaks_1966-2014.csv 
+  361  nano header2one 
+  362  head -n 2 Vol2_peaks_1966-2014.csv | awk -f header2one 
+  363  head -n 2 Vol2_peaks_1966-2014.csv | header -r -e "awk -f header2one" 
+  364  head -n 2 Vol2_peaks_1966-2014.csv | header -e "awk -f header2one" 
+  365  head -n 2 Vol2_peaks_1966-2014.csv 
+  366  head -n 2 Vol2_peaks_1966-2014.csv | header -n 2 -e "awk -f header2one" 
+  367  head -n 2 Vol2_peaks_1966-2014.csv | header -r -n 2 -e "awk -f header2one" 
+  368  header -h
+  369  head -n 2 Vol2_peaks_1966-2014.csv | header -n 2 -e "awk -f header2one" 
+  370  < Vol2_peaks_1966-2014.csv | header -n 2 -e "awk -f header2one" | less
+  371  less Vol2_peaks_1966-2014.csv 
+  372  sed -e '1 {s/epic./epicenter};q'
+  373  sed -e '1s/epic./epicenter/;q'
+  374  sed -e '1s/epic./epicenter/;q' Vol2_peaks_1966-2014.csv 
+  375  sed -e '1s/epic./epicenter/;s/.//q' Vol2_peaks_1966-2014.csv 
+  376  sed -e '1s/epic./epicenter/;1s/.//q' Vol2_peaks_1966-2014.csv 
+  377  sed -e '1s/.//g' -e '1s/epic./epicenter/;q' Vol2_peaks_1966-2014.csv 
+  378  sed -e  '1 {s/epic./epicenter/};q' Vol2_peaks_1966-2014.csv 
+  379  sed -e  '1 {s/epic./epicenter/; s/.//};q' Vol2_peaks_1966-2014.csv 
+  380  sed -e  '1 {s/epic./epicenter/; s/\.//};q' Vol2_peaks_1966-2014.csv 
+  381  sed '1 {s/epic./epicenter/; s/\.//};q' Vol2_peaks_1966-2014.csv | header -e "awk -f header2one" 
+  382  sed '1 {s/epic./epicenter/; s/\.//};q' Vol2_peaks_1966-2014.csv | less
+  383  sed '1 {s/epic./epicenter/; s/\.//};' Vol2_peaks_1966-2014.csv | less
+  384  sed '1 {s/epic./epicenter/; s/\.//};' Vol2_peaks_1966-2014.csv | header -e "awk -f header2one" 
+  385  sed '1 {s/epic./epicenter/; s/\.//};' Vol2_peaks_1966-2014.csv | header -e "awk -f header2one" | less
+  386  sed '1 {s/epic./epicenter/; s/\.//};' Vol2_peaks_1966-2014.csv | header -n 2 -e "awk -f header2one" | less
+  387  sed '1 {s/epic./epicenter/; s/\.//};' Vol2_peaks_1966-2014.csv | header -n 2 -e "awk -f header2one" > Vol2_peaks_1966-2014.csv.header.clean01
+  388  ls
+  389  less *clean*
+  390  less *clean01
+  391  ls
+  392  wc -l Vol2_peaks_1966-2014.csv
+  393  wc -l Vol2_peaks_1966-2014.csv.header.clean01 
+  394  header -n 2 Vol2_peaks_1966-2014.csv
+  395  < Vol2_peaks_1966-2014.csv header -n 2
+  396  sed -e 's/,/\n/g;q' Vol2_peaks_1966-2014.csv
+  397  sed -e 's/,/\n/g;q' Vol2_peaks_1966-2014.csv | wc -l
+  398  sed -e '2s/,/\n/g;2q' Vol2_peaks_1966-2014.csv | wc -l
+  399  sed -e '2s/,/\n/g;2q' Vol2_peaks_1966-2014.csv
+  400  sed -e '2p;2s/,/\n/g;2q' Vol2_peaks_1966-2014.csv
+  401  nano header2one 
+  402  awk -f header2one Vol2_peaks_1966-2014.csv
+  403  < Vol2_peaks_1966-2014.csv header -n 2 -e "awk -f header2one Vol2_peaks_1966-2014.csv"
+  404  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one
+  405  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' | wc -l
+  406  sed 's/,/\n/g;q' Vol2_peaks_1966-2014.csv
+  407  sed 's/,/\n/g;q' Vol2_peaks_1966-2014.csv| wc -l 
+  408  head -n Vol2_peaks_1966-2014.csv
+  409  head  Vol2_peaks_1966-2014.csv
+  410  head -n1 Vol2_peaks_1966-2014.csv
+  411  awk -f header2one Vol2_peaks_1966-2014.csv
+  412  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one
+  413  sed -e '1,2p;3q' Vol2_peaks_1966-2014.csv
+  414  open Vol2_peaks_1966-2014.csv
+  415  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed '\s/,/\n/g;q'
+  416  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q'
+  417  nano header2one 
+  418  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q'
+  419  head -n 1 Vol2_peaks_1966-2014.csv | awk 'print NR'
+  420  head -n 1 Vol2_peaks_1966-2014.csv | awk '{print NR}'
+  421  head -n 1 Vol2_peaks_1966-2014.csv | awk '{print NF}'
+  422  head -n 1
+  423  head -n 1 Vol2_peaks_1966-2014.csv
+  424  man awk
+  425  head -n 1 Vol2_peaks_1966-2014.csv | awk -F "," '{print NF}'
+  426  nano header2one 
+  427  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q'
+  428  awk -f header2one Vol2_peaks_1966-2014.csv
+  429  nano header2one 
+  430  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q'
+  431  nano header2one 
+  432  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q'
+  433  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one
+  434  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' | wc -l 
+  435  head -n 1 Vol2_peaks_1966-2014.csv | awk -F "," '{ for (i in $) { print $i } }'
+  436  head -n 1 Vol2_peaks_1966-2014.csv | awk -F "," '{ for (i in $) { print $[i] } }'
+  437  nano header2one 
+  438  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' | wc -l 
+  439  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  440  nano header2one 
+  441  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  442  nano header2one 
+  443  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  444  nano header2one 
+  445  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  446  clear
+  447  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  448  ls
+  449  head -n 1 Vol2_peaks_1966-2014.csv.header.clean01 
+  450  head -n 1 Vol2_peaks_1966-2014.csv
+  451  sed '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{print NF}'
+  452  sed -e '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{print NF}'
+  453  sed -e '3p;3q' Vol2_peaks_1966-2014.csv
+  454  sed -e '3{p;q}' Vol2_peaks_1966-2014.csv
+  455  sed -n -e '3{p;q}' Vol2_peaks_1966-2014.csv
+  456  sed -n '3{p;q}' Vol2_peaks_1966-2014.csv
+  457  man sed
+  458* sed -n '3{p;q}' Vol2_peaks_1966-2014.csv 
+  459  sed -n '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{print NF}'
+  460  sed -n '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{print NF}' | tee 
+  461  sed -n '3p;3q' Vol2_peaks_1966-2014.csv | tee | awk -F "," '{print NF}' 
+  462  sed -n '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{print}' 
+  463  sed -n '3p;3q' Vol2_peaks_1966-2014.csv | awk -F "," '{ for (i=1; i < NF; i++) { print $i; } }' 
+  464  man csvcut
+  465  csvcut -h
+  466  clear
+  467  nano header2one 
+  468  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  469  nano header2one 
+  470  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  471  nano header2one 
+  472  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  473  nano header2one 
+  474  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  475  nano header2one 
+  476  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  477  nano header2one 
+  478  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  479  clear
+  480  nano header2one 
+  481  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  482  nano header2one 
+  483  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  484  clear
+  485  nano header2one 
+  486  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  487  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one
+  488  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  489  clear
+  490  nano header2one 
+  491  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  492  nano header2one 
+  493  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  494  nano header2one 
+  495  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  496  nano header2one 
+  497  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  498  nano header2one 
+  499  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  500  nano header2one 
+  501  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  502  nano header2one 
+  503  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  504  head -n 1 Vol2_peaks_1966-2014.csv
+  505  clear
+  506  nano header2one 
+  507  head -n 1 Vol2_peaks_1966-2014.csv
+  508  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  509  nano header2one 
+  510  head -n 1 Vol2_peaks_1966-2014.csv
+  511  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  512  nano header2one 
+  513  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  514  clear
+  515  nano header2one 
+  516  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  517  clear
+  518  nano header2one 
+  519  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  520  nano header2one 
+  521  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  522  nano header2one
+  523  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  524  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one
+  525  clear
+  526  nano header2one
+  527  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' 
+  528  head -n2 Vol2_peaks_1966-2014.csv | awk -f header2one | sed 's/,/\n/g;q' | wc -l
+  529  sed -n '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv
+  530  sed  '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv
+  531  sed -n '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv
+  532  sed -e '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv
+  533  sed -n '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv | wc -l
+  534  sed -e '3{s/,/\n/g;q}' Vol2_peaks_1966-2014.csv | wc -l
+  535  sed -n '3{s/,/\n/g;p;q}' Vol2_peaks_1966-2014.csv
+  536  sed -n '3{s/,/\n/g;p;q}' Vol2_peaks_1966-2014.csv | wc -l
+  537  history
+  538  history > scratchpad-23.12.14.history

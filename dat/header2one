@@ -1,0 +1,40 @@
+#!/usr/bin/env/awk
+
+
+BEGIN {
+  FS = ","
+  ORS = ","     
+}
+
+{  
+
+ last = ""
+
+ # first line handle blank columns
+ # setup up colname array 
+ if( NR == 1) {
+  for( i=1; i <= NF; i++) {
+    blank = $i ~ /^\r?$/
+    if( !blank ) {
+      last = $i
+    }
+     col_name[i] = last
+   }
+ }
+ else {
+   for(i=1; i <= NF; i++) {
+      blank = $i ~ /^$/
+      if( !blank ) {
+        col_name[i]= col_name[i] "_" $i
+      }
+      print col_name[i]
+   }
+ }
+}
+
+END { 
+#print "\n" 
+}
+
+
+
